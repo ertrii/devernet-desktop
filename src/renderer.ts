@@ -4,3 +4,8 @@
 // nodeIntegration is set to true in webPreferences.
 // Use preload.js to selectively enable features
 // needed in the renderer process.
+const h1 = document.getElementById('title')
+
+h1.onclick = ev => {
+    console.log(ev)
+}

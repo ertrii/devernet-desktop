@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" >
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Devernet Desktop</title>
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
       http-equiv="Content-Security-Policy"
@@ -12,12 +12,14 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
+    <link href="dist/tailwind.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1 id="title" class="text-2xl text-purple-600" >Hello!</h1>
     We are using Node.js <span id="node-version"></span>, Chromium
     <span id="chrome-version"></span>, and Electron
     <span id="electron-version"></span>.
+    <button class="btn btn-primary">DaisyUI Button</button>
 
     <!-- You can also require other files to run in this process -->
     <script src="./dist/renderer.js"></script>
