@@ -3,11 +3,11 @@ import * as path from 'path'
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
-        height: 1200,
+        height: 1280, // 720
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         },
-        width: 800
+        width: 1280
     })
     mainWindow.loadFile(path.join(__dirname, '../index.html'))
     mainWindow.webContents.openDevTools()
