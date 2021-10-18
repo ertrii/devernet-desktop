@@ -28,6 +28,6 @@
     "typescript": "^4.3.4"
   },
   "dependencies": {
-    "daisyui": "^1.6.0"
+    "daisyui": "^1.14.5"
   }
 }
